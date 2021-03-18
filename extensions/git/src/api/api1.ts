@@ -14,7 +14,6 @@ import { Event, SourceControlInputBox, Uri, SourceControl, Disposable, commands 
 import { mapEvent } from '../util';
 import { toGitUri } from '../uri';
 import { GitExtensionImpl } from './extension';
-import { API, APIState, Branch, BranchQuery, Change, Commit, CommitOptions, CredentialsProvider, Git, InputBox, LogOptions, PushErrorHandler, Ref, RefType, Remote, RemoteSourceProvider, Repository, RepositoryState, RepositoryUIState, Status, Submodule } from './git';
 
 class ApiInputBox implements InputBox {
 	set value(value: string) { this._inputBox.value = value; }
